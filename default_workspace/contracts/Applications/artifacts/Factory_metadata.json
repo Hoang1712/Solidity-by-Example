@@ -1,0 +1,66 @@
+{
+	"compiler": {
+		"version": "0.8.22+commit.4fc1097e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "address",
+						"name": "addr",
+						"type": "address"
+					}
+				],
+				"name": "Log",
+				"type": "event"
+			},
+			{
+				"inputs": [],
+				"name": "deploy",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Applications/Factory.sol": "Factory"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Applications/Factory.sol": {
+			"keccak256": "0xaffb95f9d702388d79e1f6e43093cab72ee7882e8e41625915eb28ce65fd85cc",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://cf5775da167111832a959a248ca6ead7ea2a0cee3cee71f46a0ad275f63d8c56",
+				"dweb:/ipfs/QmXh9x9hHkD2cPB9ka3LtiDnAavnoFn1me9jbA7h8KYxMT"
+			]
+		}
+	},
+	"version": 1
+}
